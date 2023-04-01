@@ -43,7 +43,7 @@ const removeEmojis = (text) => {
     while(true) {
         try {
     
-            if(i >= 3) { // 250*200 = 50k message each chat
+            if(i >= 250) { // 250*200 = 50k message each chat
                 break;
             }
             
